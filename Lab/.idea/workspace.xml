@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d0782497-f30c-4f36-9aab-a83825cb1bb2" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/src/week4/Drawable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/week4/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="d0782497-f30c-4f36-9aab-a83825cb1bb2" name="Default" comment="" />
+>>>>>>> 988bec6df6a4193824a78c545d348882563c4538
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +21,7 @@
     <session id="1007960467">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.30" value="1" />
@@ -155,7 +159,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540069233679" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538866632568" />
+>>>>>>> 988bec6df6a4193824a78c545d348882563c4538
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Basic-Java-Practice" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -325,16 +333,27 @@
       <workItem from="1537913298944" duration="171000" />
       <workItem from="1537955862533" duration="779000" />
       <workItem from="1538384859298" duration="6995000" />
+<<<<<<< HEAD
       <workItem from="1538855176329" duration="9517000" />
       <workItem from="1540060625174" duration="8538000" />
+=======
+      <workItem from="1538855176329" duration="9692000" />
+>>>>>>> 988bec6df6a4193824a78c545d348882563c4538
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="33549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="25186000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="985" y="0" width="942" height="1087" extended-state="0" />
+>>>>>>> 988bec6df6a4193824a78c545d348882563c4538
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16432585" />
       <window_info id="Structure" order="1" weight="0.24964938" />
@@ -346,7 +365,11 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49929774" visible="true" weight="0.20055325" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22234157" />
+>>>>>>> 988bec6df6a4193824a78c545d348882563c4538
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -567,10 +590,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/week4/Pig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="5" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/week3/TestItemEquals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+>>>>>>> 988bec6df6a4193824a78c545d348882563c4538
         </state>
       </provider>
     </entry>
@@ -592,6 +622,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/week4/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -641,6 +672,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/week3/TestBasket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+>>>>>>> 988bec6df6a4193824a78c545d348882563c4538
         </state>
       </provider>
     </entry>
