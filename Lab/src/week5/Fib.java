@@ -1,4 +1,6 @@
-/** 
+package week5;
+
+/**
  * Fib.java
  * 
  * Illustrates iterative and recursive versions of the Fibonacci function

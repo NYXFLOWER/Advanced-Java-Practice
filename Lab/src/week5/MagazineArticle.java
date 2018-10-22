@@ -1,4 +1,4 @@
-/*
+package week5;/*
  * MagazineArticle.java
  *
  * Copyright (c) University of Sheffield 2011

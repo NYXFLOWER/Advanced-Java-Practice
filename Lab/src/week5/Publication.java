@@ -1,4 +1,4 @@
-/*
+package week5;/*
  * Publication.java
  * Copyright (c) University of Sheffield 2011
  */

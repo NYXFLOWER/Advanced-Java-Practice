@@ -1,8 +1,10 @@
-/*
+package week5;/*
  * RealEstate.java
  * Copyright (c) University of Sheffield 2011
  */
- 
+
+import week5.Asset;
+
 public class RealEstate extends Asset implements Insurable{
     public RealEstate(double v) 
     { value=v;}	
