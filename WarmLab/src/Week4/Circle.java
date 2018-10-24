@@ -32,12 +32,10 @@ public class Circle extends Shape {
 
     public void draw(EasyGraphics g) {
 		g.moveTo(getX(),getY()+radius);
-		for (int i=0; i<=NUM_STEPS; i++) 
-			{
+		for (int i=0; i<=NUM_STEPS; i++) {
 			double w = i*2*Math.PI/NUM_STEPS;
 			g.lineTo(getX()+radius*Math.sin(w),
 				getY()+radius*Math.cos(w));
-			}
 		}
-
+	}
 }
