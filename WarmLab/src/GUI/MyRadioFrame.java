@@ -1,3 +1,5 @@
+package GUI;
+
 import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -13,9 +15,10 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
+
 public class MyRadioFrame extends JFrame implements ActionListener, ComponentListener {
 
-	private MyPanel drawingPanel; // a panel to draw polygons
+	private MyPanel2 drawingPanel; // a panel to draw polygons
 
 	public MyRadioFrame() {
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -24,7 +27,7 @@ public class MyRadioFrame extends JFrame implements ActionListener, ComponentLis
 		this.setBounds((int) width/4, (int) height/4, (int) width/2, (int) height/2);
 
 		Container contentPane = this.getContentPane(); 
-		drawingPanel = new MyPanel();
+		drawingPanel = new MyPanel2();
 		drawingPanel.addComponentListener(this);
 		contentPane.add(drawingPanel, BorderLayout.CENTER);
 

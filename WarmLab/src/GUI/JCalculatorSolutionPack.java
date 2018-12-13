@@ -1,4 +1,4 @@
-/**
+package GUI; /**
  *
  *  JCalculatorSolution.java
  *   
@@ -101,8 +101,8 @@ class CalculatorSolutionPButtons extends JPanel {
 				if (displayedValue != 0)
 					// only display value if a value has been entered
 					theDisplay.setText(Integer.toString(displayedValue));
-			} else if (theLabel.equals("=")) {
-
+			}
+			else if (theLabel.equals("=")) {
 				if (operation == null) {
 					System.out.println("No-op "+displayedValue);
 				} else {
@@ -118,6 +118,7 @@ class CalculatorSolutionPButtons extends JPanel {
 					operand1 = 0;
 					operation = null;// clear operation
 					theDisplay.setText(Integer.toString(displayedValue));
+					displayedValue = 0;
 				}
 			}
 			else if (operation == null) {

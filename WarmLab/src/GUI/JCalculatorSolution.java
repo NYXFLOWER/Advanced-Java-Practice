@@ -1,4 +1,4 @@
-/**
+package GUI; /**
  *
  *  JCalculatorSolution.java
  *   
@@ -85,6 +85,9 @@ class CalculatorSolutionButtons extends JPanel {
 		public void actionPerformed(ActionEvent actionEvent) {
 			boolean opButtonPressed = false;
 			String resultText;
+
+//			String a = actionEvent.getActionCommand();
+////			System.out.print(a);
 
 			for (int i = 0; i <6; i++){
 				if (theLabel.equals(opButtonLabels[i])){

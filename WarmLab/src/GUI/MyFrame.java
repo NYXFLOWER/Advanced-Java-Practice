@@ -1,3 +1,5 @@
+package GUI;
+
 import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -14,7 +16,7 @@ import javax.swing.JPanel;
 
 public class MyFrame extends JFrame implements ActionListener, ComponentListener {
 
-	private MyPanel drawingPanel; // a panel to draw polygons
+	private MyPanel2 drawingPanel; // a panel to draw polygons
 
 	public MyFrame() {
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -23,7 +25,7 @@ public class MyFrame extends JFrame implements ActionListener, ComponentListener
 		this.setBounds((int) width/4, (int) height/4, (int) width/2, (int) height/2);
 
 		Container contentPane = this.getContentPane(); 
-		drawingPanel = new MyPanel();
+		drawingPanel = new MyPanel2();
 		drawingPanel.addComponentListener(this);
 		contentPane.add(drawingPanel, BorderLayout.CENTER);
 
@@ -38,8 +40,7 @@ public class MyFrame extends JFrame implements ActionListener, ComponentListener
 		}
 
 		makeButton(columnOfButtons, "Exit", this); 
-		contentPane.add(columnOfButtons,
-				BorderLayout.EAST); 
+		contentPane.add(columnOfButtons, BorderLayout.EAST);
 	}
 
 	private void makeButton(JPanel p, String name, ActionListener target) {

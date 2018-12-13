@@ -1,3 +1,5 @@
+package GUI;
+
 import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
@@ -10,7 +12,7 @@ import javax.swing.JTextArea;
 
 public class SimpleFrameWithQuitButton extends JFrame implements ActionListener  {          
 
-	public static final int DEFAULT_WIDTH = 300;                                                                                                                                                                     
+	public static final int DEFAULT_WIDTH = 600;
 	public static final int DEFAULT_HEIGHT = 200;         
 
 	private JButton quitButton;
@@ -49,6 +51,7 @@ public class SimpleFrameWithQuitButton extends JFrame implements ActionListener 
 	@Override
 	public void actionPerformed(ActionEvent event) {
 		Object source = event.getSource();
+		System.out.println(source);
 		if (source == quitButton) {
 			System.exit(0);
 		}

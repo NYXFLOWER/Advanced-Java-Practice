@@ -1,3 +1,5 @@
+package GUI;
+
 import java.awt.*;
 import java.awt.geom.*;
 import javax.swing.*;
@@ -24,8 +26,7 @@ public class MyPanel extends JPanel {
 		g2.setStroke(new BasicStroke(10)); 
 		g2.setPaint(new Color(128,0,0));  
 		
-		Rectangle2D.Double s = 
-				new Rectangle2D.Double(20.0,20.0,100.0,50.0);
+		Rectangle2D.Double s = new Rectangle2D.Double(20.0,20.0,100.0,50.0);
 		g2.draw(s);
 
 		// Example of how polymorphism can be used to include 

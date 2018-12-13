@@ -1,4 +1,4 @@
-package Week9;
+package GUI;
 
 
 import org.omg.CORBA.OBJ_ADAPTER;

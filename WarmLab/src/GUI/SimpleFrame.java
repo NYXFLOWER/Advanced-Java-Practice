@@ -1,4 +1,5 @@
 
+package GUI;
 import javax.swing.*;
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -15,13 +16,13 @@ public class SimpleFrame extends JFrame {
 		// Task 1
 		
 		// top left
-		this.setBounds(0,0, (int) width/2, (int) height/2);
+//		this.setBounds(0,0, (int) width/2, (int) height/2);
 
 		// top right
-		// this.setBounds((int) width/2, 0, (int) width/2, (int) height/2);
+//		 this.setBounds((int) width/2, 0, (int) width/2, (int) height/2);
 
 		// bottom left
-		// this.setBounds(0, (int) height/2, (int) width/2, (int) height/2);
+//		 this.setBounds(0, (int) height/2, (int) width/2, (int) height/2);
 
 		// bottom right
 		// this.setBounds((int) width/2, (int) height/2, (int) width/2, (int) height/2);

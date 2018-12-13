@@ -1,0 +1,9 @@
+8
+David|James|34
+Joey|Barton|22
+Bradley|Wright-Phillips|23
+Bradley|Wright-Phillips|99
+Bradley|Wright-Phillips|100
+Bradley|Wright-Phillips|99
+Brad|Wright-Phillips|99
+Andrew|Cole|34
