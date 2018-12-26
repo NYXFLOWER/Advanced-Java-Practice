@@ -4,6 +4,21 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Polygon;
+import java.awt.BasicStroke;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import java.awt.RenderingHints;
+import java.awt.Stroke;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
 
 import javax.swing.JPanel;
 
@@ -11,10 +26,8 @@ public class MyPanel2 extends JPanel {
 
 	// TODO 
 	// everything
-	
-	private double radius;
+
 	private Polygon polygon;
-	private double xCentre, yCentre;
 	private int sides;
 	
 	public MyPanel2() {
@@ -40,11 +53,11 @@ public class MyPanel2 extends JPanel {
 
 	public void setPolygon() {
 		// coordinates of the centre of this JPanel
-		xCentre = this.getWidth() / 2.0;
-		yCentre = this.getHeight() / 2.0;
+		double xCentre = this.getWidth() / 2.0;
+		double yCentre = this.getHeight() / 2.0;
 
 		// Radius of a circle that will occupy 90% of the smaller X or Y dimension
-		radius = Math.min(xCentre, yCentre) * 0.9;
+		double radius = Math.min(xCentre, yCentre) * 0.9;
 
 		int[] xs = new int[sides];
 		int[] ys = new int[sides];
@@ -56,6 +69,4 @@ public class MyPanel2 extends JPanel {
 		polygon = new Polygon(xs, ys, sides);
 		this.repaint();
 	}
-
-	
 }
